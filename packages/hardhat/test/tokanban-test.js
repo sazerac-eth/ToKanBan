@@ -32,7 +32,7 @@ describe("ToKanBan", function () {
     const task = await this.kanban.taskLog(0);
 
     expect(task.funds.value).equals(value.value);
-    expect(task.details).equals(details);
+    expect(2).equals(5);
   });
 
   it("Should request tasks", async function () {
